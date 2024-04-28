@@ -26,8 +26,8 @@ public class MessageProducer {
                }
            });
         }
-        catch (Exception e){
-            System.out.println("Exception occured"+e.getMessage());
+        catch (Exception ex){
+            System.out.println("Exception occured"+ex.getMessage());
         }
     }
 
